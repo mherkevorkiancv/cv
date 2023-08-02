@@ -1,0 +1,24 @@
+
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    background-color: rgba(0, 0, 0, 0.74);
+    height: 150px;
+    border-top: 1px solid white;
+    margin-top: 100px;
+}
+
+.footer-container > nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.footer-container a {
+    color: white;
+   
+}

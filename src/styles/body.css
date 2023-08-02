@@ -1,0 +1,89 @@
+.body-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    gap: 10px;
+}
+
+button > img {
+    width: 20px;
+}
+
+.phone {
+    background-color: white;
+    border-radius: 8px;
+    width: 25px;
+}
+
+.contact-me-container > div > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-left: 30px;
+}
+
+.address {
+    width: 30px;
+}
+
+.contact-me-container >div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.about-me_p {
+    width: 350px;
+    transition: ease-in-out; transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+}
+
+.language-container > ul > li {
+    color: white;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.experience-container i , h4{
+ color: white;
+}
+
+.experience-container > div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid white;
+    line-height: 80%;
+}
+
+.experience-container > div > div {
+    text-align: left;
+}
+
+.experience-container > div > div > p {
+    margin-top: -1px;
+    
+}

@@ -1,0 +1,45 @@
+:root {
+    --fontFamily: Georgia, 'Times New Roman', Times, serif;
+    --primary-color: rgb(14, 17, 61);
+}
+
+body {
+    background-color: black;
+    text-align: center;
+}
+
+.header-left {
+    display: none;
+    width: 200px;
+    height: 200px;
+    background-color: var(--primary-color);
+}
+
+.my-photo {
+    margin-top: 10%;
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    border: 8px solid silver;
+}
+
+.header-container_middle {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+    font-size: large;
+    font-family: var(--fontFamily);
+    letter-spacing: 2px;
+}
+
+.header-container > h3 {
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: var(--fontFamily);
+}
+
+p {
+    color: white;
+}
